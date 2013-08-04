@@ -1,0 +1,8 @@
+This is tested on Debian Wheezy (3.2.0-4-686-pae) with Apache Apache/2.2.22 mod_fcgi and Tcl8.5.14
+
+Pre-requisite:
+  Install libfcgi-dev and libfcgi0ldbl packages
+
+Build & Install:
+  make
+  sudo make install
