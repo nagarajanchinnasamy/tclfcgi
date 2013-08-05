@@ -29,7 +29,7 @@ Apache Setup:
 
   3. Place your FCGI scripts in /my/path/to/fcgi-bin and set executable permission to the scripts.
 
-Example Tcl FCGI script:
+Example Tcl FCGI script (example.fcg):
 
         do_one_time_app_initialization_here
 
@@ -43,3 +43,11 @@ Example Tcl FCGI script:
 		puts $result
 		::ncgi::reset
 	}
+
+  4. Access your FCGI script from browser using http://your.com/appname/example.fcg
+
+References:
+
+  http://www.fastcgi.com/devkit/doc/fcgi-tcl.htm
+  http://sourceforge.net/projects/tcl-fastcgi/
+
